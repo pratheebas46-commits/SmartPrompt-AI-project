@@ -116,4 +116,6 @@ SmartPrompt AI is an intermediate-level Python AI/ML and data analytics platform
 6. **Run the complete test suite:**
    ```bash
    pytest tests/ -v
-   ```
+  Demo Link = "https://smartprompt-ai-frontend.onrender.com" (frontend)
+               "https://smartprompt-ai-backend.onrender.com" (backend) 
+ 
