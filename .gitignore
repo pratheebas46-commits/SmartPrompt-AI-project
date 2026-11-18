@@ -1,0 +1,41 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated Data, Models, Reports, and Logs
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+ml_models/*.joblib
+ml_models/*.pkl
+reports/*.pdf
+reports/*.xlsx
+logs/*.log*
+!logs/.gitkeep
+
+# Node / Build Artifacts
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log

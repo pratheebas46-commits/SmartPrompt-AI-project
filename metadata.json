@@ -1,0 +1,6 @@
+{
+  "name": "SmartPrompt AI",
+  "description": "A Dataset-Aware, Self-Validating Intelligent Data Analyst",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
